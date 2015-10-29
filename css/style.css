@@ -6,12 +6,13 @@ body{
 #runner{
 	background-color: rgba(228,201,206,.65);
 	width: 620px;
-	height: 854px;
+	height: 427px;
 }
 
 .logo{
 	padding: 0;
 	margin: 0;
+/*	border: 2px solid black;*/
 }
 
 #nav{}
@@ -43,4 +44,16 @@ a{
 a:hover{
 	color: white;
 	text-decoration: none;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 620px;
+	height: 427;
+	margin: auto;
+  }
+
+#myCarousel{
+	width: 620px;
+	height: 427px;
 }
