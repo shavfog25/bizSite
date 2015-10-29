@@ -1,3 +1,8 @@
+
+ {
+    border: solid 1px black;
+}
+
 body{
 	background-image:url("../img/teaParty.png");
 	background-repeat: no-repeat;
@@ -17,7 +22,9 @@ body{
 
 #nav{}
 
-#nav ul{}
+ul{
+    list-style: none;
+}
 
 #nav ul li{
 	list-style: none;
@@ -46,6 +53,7 @@ a:hover{
 	text-decoration: none;
 }
 
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	width: 620px;
@@ -56,4 +64,13 @@ a:hover{
 #myCarousel{
 	width: 620px;
 	height: 427px;
-}
+
+/*#menu{
+    background-color: rgba(228,201,206,.65);
+    max-height: 600px;
+    overflow: scroll;
+}*/
+
+/*footer {
+    text-align: center;
+}*/
