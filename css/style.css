@@ -1,3 +1,8 @@
+
+/* {
+    border: solid 1px black;
+}*/
+
 body{
 	background-image:url("../img/teaParty.png");
 	background-repeat: no-repeat;
@@ -6,7 +11,7 @@ body{
 #runner{
 	background-color: rgba(228,201,206,.65);
 	width: 620px;
-	height: 854px;
+    height: 427px;
 }
 
 .logo{
@@ -14,9 +19,13 @@ body{
 	margin: 0;
 }
 
-#nav{}
+#nav{
+    
+}
 
-#nav ul{}
+ul{
+    list-style: none;
+}
 
 #nav ul li{
 	list-style: none;
@@ -43,4 +52,14 @@ a{
 a:hover{
 	color: white;
 	text-decoration: none;
+}
+
+#menu{
+    background-color: rgba(228,201,206,.65);
+    max-height: 600px;
+    overflow: scroll;
+}
+
+footer {
+    text-align: center;
 }
