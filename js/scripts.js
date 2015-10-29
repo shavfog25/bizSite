@@ -1,6 +1,6 @@
 $(document).ready(function(){
-
+    
 	$("a").hover(function(){
-		.animate({margin: "20px"}, 500)
-		});
-	});
+		$(this).animate({marginLeft: '30px'}, 'slow');
+    });
+});
