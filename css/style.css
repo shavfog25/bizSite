@@ -1,8 +1,3 @@
-
-/* {
-    border: solid 1px black;
-}*/
-
 body{
 	background-image:url("../img/teaParty.png");
 	background-repeat: no-repeat;
@@ -10,17 +5,13 @@ body{
 
 #runner{
 	background-color: rgba(228,201,206,.65);
-	width: 620px;
-    height: 427px;
 }
 
-.logo{
+.rowLogo{
 	padding: 0;
-	margin: 0;
 }
 
 #nav{
-    
 }
 
 ul{
@@ -54,12 +45,27 @@ a:hover{
 	text-decoration: none;
 }
 
-#menu{
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+	width: 620px;
+	height: 427px;
+	margin: auto;
+  }
+
+#myCarousel{
+	width: 620px;
+	height: 427px;
+	overflow: hidden;
+	margin: 0px;
+}
+
+/*#menu{
     background-color: rgba(228,201,206,.65);
     max-height: 600px;
     overflow: scroll;
-}
+}*/
 
-footer {
+/*footer {
     text-align: center;
-}
+}*/
