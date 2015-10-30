@@ -1,8 +1,3 @@
-
- {
-    border: solid 1px black;
-}
-
 body{
 	background-image:url("../img/teaParty.png");
 	background-repeat: no-repeat;
@@ -12,15 +7,16 @@ body{
 	background-color: rgba(228,201,206,.65);
 	width: 620px;
 	height: 427px;
+	border: 2px solid black;
 }
 
 .logo{
 	padding: 0;
 	margin: 0;
-/*	border: 2px solid black;*/
 }
 
-#nav{}
+#nav{
+}
 
 ul{
     list-style: none;
@@ -57,13 +53,16 @@ a:hover{
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
 	width: 620px;
-	height: 427;
+	height: 427px;
 	margin: auto;
   }
 
 #myCarousel{
 	width: 620px;
 	height: 427px;
+	overflow: hidden;
+	margin: 0px;
+}
 
 /*#menu{
     background-color: rgba(228,201,206,.65);
